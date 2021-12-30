@@ -4,6 +4,7 @@ import { FACTORIES, mainNodeId, SKIP_AUTO_PROPS } from "./common";
  * Serialize a node to a simple JSON object
  *
  * Current limitations:
+ * - Styles aren't yet serialized, so end up flattened
  * - No support for mixed stroke caps
  * - Lots of bugs + performance issues with groups + boolean operations
  *   - e.g. group contents are out of order
